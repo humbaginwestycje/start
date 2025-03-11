@@ -14,109 +14,11 @@
 </head>
 <body>
 
-
-
-<!--left-side-->
-<div class="modal fade" id="ZoomSideLeft" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="zoomModalLabel">Lewy bok elewacji</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex justify-content-center">
-                <img id="zoomedImage" src="../assets/facade/side-left.jpg" class="img-fluid" alt=""
-                     style="object-fit: contain;">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--right-side-->
-<div class="modal fade" id="ZoomSideRight" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="zoomModalLabel">Prawy bok elewacji</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex justify-content-center">
-                <img id="zoomedImage" src="../assets/facade/side-right.jpg" class="img-fluid" alt=""
-                     style="object-fit: contain;">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--front-flat-->
-<div class="modal fade" id="ZoomFrontFlat" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="zoomModalLabel">Przód elewacji</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex justify-content-center">
-                <img id="zoomedImage" src="../assets/facade/front-flat.jpg" class="img-fluid" alt=""
-                     style="object-fit: contain;">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--back-flat-->
-<div class="modal fade" id="ZoomBackFlat" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="zoomModalLabel">Tył elewacji</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex justify-content-center">
-                <img id="zoomedImage" src="../assets/facade/back-flat.jpg" class="img-fluid" alt=""
-                     style="object-fit: contain;">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--front-angle-->
-<div class="modal fade" id="ZoomFrontAngle" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="zoomModalLabel">Przód elewacji</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex justify-content-center">
-                <img id="zoomedImage" src="../assets/facade/front-angle.jpg" class="img-fluid" alt=""
-                     style="object-fit: contain;">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--back-angle-->
-<div class="modal fade" id="ZoomBackAngle" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="zoomModalLabel">Tył elewacji</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex justify-content-center">
-                <img id="zoomedImage" src="../assets/facade/back-angle.jpg" class="img-fluid" alt=""
-                     style="object-fit: contain;">
-            </div>
-        </div>
-    </div>
-</div>
-
 <!--navbar-->
 <nav class="navbar navbar-expand-lg bg-primary justify-content-between" data-bs-theme="dark">
     <a class="nav-link px-lg-5" href="../index.html">
         <div class="d-flex">
-            <h1 class="nav-brand ml-lg-5 text-white">Osiedle Wrocławskie</h1>
+            <h2 class="align-self-center nav-brand mx-1 pl-lg-5 text-white" style="">Osiedle Wrocławskie</h2>
             <img class="my-1 mx-2" src="../assets/crest.png" height="40"></img>
         </div>
     </a>
@@ -126,8 +28,13 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="mx-3 navbar-collapse collapse" id="navbarCollapseContent">
+    <div class="mx-3 navbar-collapse collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">
+                    Start
+                </a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="../pages/facade.html">
                     Elewacje
