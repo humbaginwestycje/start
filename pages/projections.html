@@ -67,22 +67,66 @@
     </div>
 </nav>
 <!--navbar-->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <button class="nav-link active" id="tab-2d" data-bs-toggle="tab" data-bs-target="#2d" type="button">2D</button>
+    </li>
+    <li class="nav-item">
+        <button class="nav-link" id="tab-3d" data-bs-toggle="tab" data-bs-target="#3d" type="button">3D</button>
+    </li>
+    <li class="nav-item">
+        <button class="nav-link" id="tab-3d" data-bs-toggle="tab" data-bs-target="#3d-cards" type="button">karty 3D</button>
+    </li>
+</ul>
+<!-- title -->
 <div class="container">
     <hr>
     <h1 class="text-center">Rzuty/Powierzchnie</h1>
     <hr>
-
-    <div class="col">
-        <div class="row">
-            <img class="flow-img" src="../assets/level-0.jpg"></img>
-            <h4 class="text-center">Parter</h4>
-        </div>
-        <div class="row">
-            <img class="flow-img" src="../assets/level-1.jpg"></img>
-            <h4 class="text-center">Poddasze</h4>
+</div>
+<div class="tab-content">
+    <!-- 2d -->
+    <div class="container tab-pane fade show active" role="tabpanel" id="2d">
+        <div class="col">
+            <div class="row">
+                <img class="flow-img" src="../assets/levels/level-0.jpg"></img>
+                <h4 class="text-center">Parter</h4>
+            </div>
+            <div class="row">
+                <img class="flow-img" src="../assets/levels/level-1.jpg"></img>
+                <h4 class="text-center">Poddasze</h4>
+            </div>
         </div>
     </div>
+    <!-- 3d -->
+    <div class="container tab-pane fade" role="tabpanel" id="3d">
+        <div class="col">
+            <div class="row">
+                <img class="flow-img" src="../assets/levels/left-3d.jpg"></img>
+                <h4 class="text-center">Lewe mieszkanie</h4>
+            </div>
+            <div class="row">
+                <img class="flow-img" src="../assets/levels/right-3d.jpg"></img>
+                <h4 class="text-center">Prawe mieszkanie</h4>
+            </div>
+        </div>
+    </div>
+    <!-- 3d-cards -->
+    <div class="container tab-pane fade" role="tabpanel" id="3d-cards">
+        <div class="col">
+            <div class="row">
+                <img class="flow-img" src="../assets/levels/left-3d-card.png"></img>
+                <h4 class="text-center">Lewe mieszkanie</h4>
+            </div>
+            <div class="row">
+                <img class="flow-img" src="../assets/levels/right-3d-card.png"></img>
+                <h4 class="text-center">Prawe mieszkanie</h4>
+            </div>
+        </div>
+    </div>
+
 </div>
+
 <!--footer-->
 <footer class="footer bg-primary">
     <p class="mt-2 text-center text-white">© 2025 Humbag Inwestycje</p>
