@@ -33,6 +33,18 @@ footer {
   }
 }
 
+.tab.active {
+    color: rgb(255, 255, 255) !important;
+    background-color: #29abe0 !important;
+    opacity: 1.0 !important;
+}
+
+.tab {
+    color: rgb(255, 255, 255) !important;
+    background-color: #29abe0 !important;
+    opacity:  0.65 !important;
+}
+
 /*div {
 border-style: solid;
 border-color:  #5dade2;
