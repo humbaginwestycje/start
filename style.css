@@ -34,15 +34,17 @@ footer {
 }
 
 .tab.active {
+    font-size: 20px !important;
     color: rgb(255, 255, 255) !important;
     background-color: #29abe0 !important;
     opacity: 1.0 !important;
 }
 
 .tab {
+    font-size: 20px !important;
     color: rgb(255, 255, 255) !important;
     background-color: #29abe0 !important;
-    opacity:  0.65 !important;
+    opacity:  0.55 !important;
 }
 
 .close {
