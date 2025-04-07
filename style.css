@@ -29,7 +29,7 @@ footer {
     }
 
   .banner {
-    height: 500px;
+      max-width: 1090px;
   }
 }
 
